@@ -1,0 +1,11 @@
+{
+    "namespace": "example",
+    "type": "record",
+    "name": "EvolvedPerson",
+    "fields": [
+        {"name": "id", "type": "int"},
+        {"name": "name", "type": "string"},
+        {"name": "age", "type": ["null", "int"], "default": null},
+        {"name": "email", "type": ["null", "string"], "default": null}
+    ]
+}
